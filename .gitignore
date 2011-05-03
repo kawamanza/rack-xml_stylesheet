@@ -1,0 +1,5 @@
+*.gem
+*.swp
+log
+test/rails23_root/.bundle
+test/rails23_root/log

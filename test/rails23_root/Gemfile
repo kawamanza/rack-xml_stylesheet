@@ -1,0 +1,8 @@
+source :rubygems
+
+gem "rails", "= 2.3.11"
+gem "tokamak", :require => "tokamak/hook/rails"
+gem "rack-conneg", :require => "rack/conneg"
+group :test do
+  gem "ruby-debug"
+end

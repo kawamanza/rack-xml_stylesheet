@@ -1,0 +1,45 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.11)
+      actionpack (= 2.3.11)
+    actionpack (2.3.11)
+      activesupport (= 2.3.11)
+      rack (~> 1.1.0)
+    activerecord (2.3.11)
+      activesupport (= 2.3.11)
+    activeresource (2.3.11)
+      activesupport (= 2.3.11)
+    activesupport (2.3.11)
+    columnize (0.3.2)
+    json_pure (1.5.1)
+    linecache (0.43)
+    nokogiri (1.4.4)
+    rack (1.1.0)
+    rack-conneg (0.1.4)
+      rack (>= 1.0)
+    rails (2.3.11)
+      actionmailer (= 2.3.11)
+      actionpack (= 2.3.11)
+      activerecord (= 2.3.11)
+      activeresource (= 2.3.11)
+      activesupport (= 2.3.11)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
+    tokamak (1.1.4)
+      json_pure
+      nokogiri
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-conneg
+  rails (= 2.3.11)
+  ruby-debug
+  tokamak
